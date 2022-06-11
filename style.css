@@ -1,0 +1,126 @@
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  background-color: #dae8f2; 
+}
+/*#d0e3f0*/
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+.title {
+  text-align: center;
+  margin-top: 6rem;
+  font-size: 3rem;
+  color:rgb(14, 40, 118);
+
+}
+
+.calculator {
+margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border: 1.7px solid rgb(2, 8, 26);
+  border-radius: 5px;
+  width: 300px;
+  height: 400px;
+ /* background-color: #d9e8f2;*/
+  background: linear-gradient(#d9e8f2,#b9d7e3);
+}
+
+.calculator-screen {
+  width: 100%;
+  font-size: 3.5rem;
+  height: 70px;
+  border: none;
+  /*background-color: #dfdbdb;*/
+  background:linear-gradient(rgb(235, 239, 242),#dfdbdb);
+  color: rgb(75, 74, 74);
+  text-align: right;
+  padding-right: 20px;
+  padding-left: 10px;
+  border: 0.5px solid rgb(213, 210, 210);
+}
+
+button {
+   height: 40px;
+  width: 40px;
+  background-color: rgb(123, 183, 210);
+  border-radius: 3px;
+  border: 1px solid #c4c4c4;
+  border: 0.5px solid black;
+  font-size: 2rem;
+  color: #333;
+  
+}
+
+button:hover {
+  background-color: #eaeaea;
+}
+
+.operator {
+  color: #337cac;
+}
+
+.all-clear {
+  width: 70px;
+  background-color: #f0595f;
+  border-color: #b0353a;
+  color: #fff;
+}
+
+.all-clear:hover {
+  background-color: #f17377;
+}
+
+.equal-sign {
+  background-color: #2e86c0;
+  border-color: #337cac;
+  color: #fff;
+}
+
+.equal-sign:hover {
+  background-color: #4e9ed4;
+}
+
+.calculator-keys {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+}
+
+#error {
+
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 0rem;
+  font-size: 2rem;
+}
+
+.buttonsDiv {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.backspace {
+  width: 108px;
+  background-color: #2e86c0;
+  border-color: #337cac;
+  color: #fff;
+}
+
+.backspace:hover {
+  background-color: #4e9ed4;
+}
