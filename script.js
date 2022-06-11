@@ -181,5 +181,3 @@ document.addEventListener('keydown',(event)=>{
 
 })
 
- //keubourdInput.value = Math.round(result*100)/100;
-// keubourdInput.value = eval(keubourdInput.value);
