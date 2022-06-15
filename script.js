@@ -159,6 +159,7 @@ keys.addEventListener('click', event => {
 
 
 /////keyboard support///////
+/*
 
 const keubourdInput = document.getElementById("screen");
 
@@ -180,4 +181,4 @@ document.addEventListener('keydown',(event)=>{
     }
 
 })
-
+*/
